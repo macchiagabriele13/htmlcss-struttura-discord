@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --jumbo: #00008B;
+    --header: #ADD8E6;
+    --nav: #DAA520;
+    --backtitolo: #EE82EE;
+    --collarga: #1E90FF;
+    --sezpari: #D3D3D3;
+    --colstretta: #FFC0CB;
+    --sezdispari: #FFFFFF;
+
+
+}
+
+header {
+    background-color: #ADD8E6;
+}
+
+
+
+.bianco{
+    background-color: var(--sezdispari);
+}
+
+.grigio{
+    background-color:var(--sezpari) ;
+}
+
+
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container_sez {
+    width: 80%;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.container_sez_footer {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0px auto 35px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col_1 {
+    width: calc((100% / 12)* 1);
+}
+
+.col_2 {
+    width: calc((100% / 12)* 2);
+}
+
+
+
+.col_3{
+    width: calc((100% / 12)* 3);
+}
+
+.col_4 {
+    width: calc((100% / 12)* 4);
+    height: 570px;
+}
+
+.sottocol{
+    width: calc((.col_4/ 10)* 4);
+}
+
+.col_5 {
+    width: calc((100% / 12)* 5);
+}
+
+.col_6 {
+    width: calc((100% / 12)* 6);
+}
+
+.col_7 {
+    width: calc((100% / 12)* 7);
+    height: 500px;
+}
+
+.col_9 {
+    width: calc((100% / 12)* 9);
+}
+
+    .jumbo {
+        height: 500px;
+        background-color: #00008B;
+        display: flex;
+
+    }
+
+    .sezione{
+        display: flex;
+    }
+
+  
+    .titolo {
+        text-align: center;
+                background-color: var(--backtitolo);
+        justify-content: center;
+        align-content: center;
+        height: 400px;
+
+    }
+
+    .navlink{
+        text-align: center;
+    }
+
+    .login{
+        text-align: end;
+    }
+
+    .logo, .navlink, .login{
+        background-color: #DAA520;
+        }
+
+.contenitore_verde{
+    height: 900px;
+    justify-content: center;
+    align-content: center;
+    margin: 50px;
+    background-color: green;
+    width: 100%;
+}
+
+
+.logo_footer {
+    max-width: 1200px;
+    margin: auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+}
+
+.row_footer{
+display: flex;
+flex-wrap: wrap;
+padding-top: 50px;
+}

@@ -111,3 +111,12 @@ header {
     .logo, .navlink, .login{
         background-color: #DAA520;
         }
+
+.contenitore_verde{
+    height: 900px;
+    justify-content: center;
+    align-content: center;
+    margin: 50px;
+    background-color: green;
+    width: 100%;
+}

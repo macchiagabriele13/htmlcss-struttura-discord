@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 :root {
@@ -70,11 +71,15 @@ header {
 .main_title {
     padding: 20px 0px;
     color: white;
+    font-size: 40px;
+    font-weight: 700;
+
 }
 
 .main_subt {
     padding: 0px 200px 15px;
     color: white;
+    font-weight: 400;
 }
 
 .pad10 {
@@ -186,8 +191,16 @@ header {
 }
 
 .area_testo{
-    padding: 100px;
+    padding-left: 50px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
 }
+
+
 
 .titolo_sez{
     font-size: 40px;
@@ -196,10 +209,31 @@ header {
     text-align: left;
 }
 
+
+
 .sub_sez{
     font-size: 15px;
     color: black;
     text-align: left;
+}
+
+
+
+.img_div{
+    display: flex;
+    justify-content: flex-end;
+    height: 500px;
+}
+
+.img_div2{
+    display: flex;
+    justify-content: flex-start;
+    height: 500px;
+}
+
+.img_sez{
+    height: 350px;
+    align-self: center;
 }
 
 
